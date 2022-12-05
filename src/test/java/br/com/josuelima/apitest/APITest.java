@@ -29,7 +29,7 @@ public class APITest {
 				
 			.then()
 			.log().all()
-			.statusCode(HttpStatus.SC_OK)
+			.statusCode(HttpStatus.SC_ACCEPTED)
 			;
 	}
 	@Test
